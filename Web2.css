@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body,html {
+
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color:cornflowerblue; */
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.NavMenu {
+    width: 750px;
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:center;
+    position: relative;
+}
+
+.icon1 {
+    position: absolute;
+    left: 500px;
+    top: 16px;
+}
+
+.icon2 {
+    margin-left: 1350px;
+}
+
+.NavMenu h3{
+    margin:0 20px;
+}
+
+.container{
+    background-color: crimson;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+/* #bandPic {
+    width: 100%;
+    height: auto;
+    background-image: url(../day5/images/web1/ny.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 1s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite ;
+    animation-play-state:running ;
+    animation-timing-function:ease-in-out ;
+}
+
+@keyframes animate {
+    50%{
+        background-image: url(../day5/images/web1/chicago.jpg);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    
+    .container {
+        width: 20%;
+    }
+   
+} */
+
